@@ -788,6 +788,29 @@ img.hover-shadow {
   margin-top: 20px;
 }
 
+
+/* repair.html */
+
+.main{
+  padding-top: 120px;
+}
+.breadcrumb-color:hover{
+  color: #000 !important;
+}
+.breadcrumb-color--active{
+  color: #000 !important;
+}
+.repair__title{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 44px;
+  color: #000000;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 /* Медиа */
 
 @media (max-width: 1024px) {
