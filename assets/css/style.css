@@ -1,5 +1,5 @@
 .nk-navbar.nk-navbar-fixed.nk-onscroll-show {
-  background-color: #2a3e8d;
+  background-color: #29527e;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -78,7 +78,7 @@
   line-height: 19px;
   text-align: center;
   color: #ffffff;
-  background-color: #2a3e8d;
+  background-color: #29527e;
   border: none;
 }
 .header-btn {
@@ -91,8 +91,11 @@
   font-size: 16px;
   line-height: 19px;
   color: #fff;
-  background-color: #2a3e8d;
+  background-color:  #29527e;
   border: none;
+}
+.header__link:hover{
+  opacity: 0.8;
 }
 .minmenu-btn {
   padding: 10px 15px;
@@ -237,6 +240,7 @@
   color: #ffffff;
 }
 .equipment-wrap {
+  cursor: pointer;
   position: relative;
 }
 .equipment__title {
@@ -262,7 +266,7 @@
   max-width: 285px;
   padding-top: 60px;
   padding-bottom: 20px;
-  background-color: #2a3e8d;
+  background-color: #29527e;
   white-space: nowrap;
 }
 .equipment__img {
@@ -374,6 +378,10 @@
   line-height: 16px;
   color: #5e5c5c;
 }
+.contact-phone__phone:hover{
+  text-decoration: none;
+  color: #000;
+}
 .contact-wrap {
   display: flex;
   justify-content: space-between;
@@ -420,6 +428,24 @@
 .projects-new .project-bg-img img {
   width: 100%;
 }
+.projects-wrap{
+  cursor: pointer;
+  position: relative;
+  
+}
+.projects-wrap:hover::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(250,250,250,0.3);
+  transition: all 0.2s ease-out;
+}
+
 .projects-new .project-bg-name {
   padding: 30px 10px;
   line-height: 1.2em;
@@ -783,7 +809,7 @@ img.hover-shadow {
 .services-line{
   width: 100%;
   height: 1px;
-  background-color: #2a3e8d;
+  background-color: #29527e;
   margin-bottom: 20px;
   margin-top: 20px;
 }
