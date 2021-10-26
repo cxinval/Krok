@@ -1,7 +1,41 @@
 .nk-navbar.nk-navbar-fixed.nk-onscroll-show {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.header-links {
+  max-width: 364px;
+  width: 100%;
+  justify-content: space-between;
+  color: #29527e;
+}
+.header-up {
+  padding-top: 14px;
+  padding-bottom: 11px;
+  background-color: #fff;
+}
+.header-bottom {
+  padding-top: 22px;
+  padding-bottom: 23px;
   background-color: #29527e;
-  padding-top: 20px;
-  padding-bottom: 20px;
+}
+.header__link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+.header__link:hover{
+  text-decoration: none;
+}
+.header-flag__link:hover{
+  opacity: 0.8;
+}
+.header-flags {
+  max-width: 117px;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .nk-navbar.nk-navbar-white-text-on-top .nk-nav > li > a,
@@ -91,10 +125,13 @@
   font-size: 16px;
   line-height: 19px;
   color: #fff;
-  background-color:  #29527e;
+  background-color: #29527e;
   border: none;
 }
-.header__link:hover{
+.header__link {
+  padding-right: 0;
+}
+.header__link:hover {
   opacity: 0.8;
 }
 .minmenu-btn {
@@ -378,7 +415,7 @@
   line-height: 16px;
   color: #5e5c5c;
 }
-.contact-phone__phone:hover{
+.contact-phone__phone:hover {
   text-decoration: none;
   color: #000;
 }
@@ -428,12 +465,12 @@
 .projects-new .project-bg-img img {
   width: 100%;
 }
-.projects-wrap{
+.projects-wrap {
+  padding: 10px;
   cursor: pointer;
   position: relative;
-  
 }
-.projects-wrap:hover::after{
+.projects-wrap:hover::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -442,7 +479,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(250,250,250,0.3);
+  background-color: rgba(250, 250, 250, 0.3);
   transition: all 0.2s ease-out;
 }
 
@@ -781,7 +818,7 @@ img.hover-shadow {
   align-items: flex-start;
   max-width: 800px;
 }
-.service-link__title{
+.service-link__title {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: bold;
@@ -804,9 +841,9 @@ img.hover-shadow {
   max-height: 300px;
   min-height: 300px;
   object-fit: cover;
-  border-radius: 20px
+  border-radius: 20px;
 }
-.services-line{
+.services-line {
   width: 100%;
   height: 1px;
   background-color: #29527e;
@@ -814,19 +851,18 @@ img.hover-shadow {
   margin-top: 20px;
 }
 
-
 /* repair.html */
 
-.main{
+.main {
   padding-top: 120px;
 }
-.breadcrumb-color:hover{
+.breadcrumb-color:hover {
   color: #000 !important;
 }
-.breadcrumb-color--active{
+.breadcrumb-color--active {
   color: #000 !important;
 }
-.repair__title{
+.repair__title {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: bold;
